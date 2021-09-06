@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Preview
 
-[Preview here](https://61364b322b4abc00087b0431--eager-booth-f5b855.netlify.app/)
+[Preview here](https://eager-booth-f5b855.netlify.app/)
 
 ## Screenshots
 
