@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/14096113/132244547-67682a4b-b74d-4ff5-8314-cc75ff4e9fbc.png)
+
+![image](https://user-images.githubusercontent.com/14096113/132244588-69bb7bb3-9488-49be-b78f-0e559e81a0b6.png)
+
+
+![image](https://user-images.githubusercontent.com/14096113/132244640-d90b9384-9a59-4866-af7a-062452939b83.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -38,16 +48,6 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Screenshots
-
-![image](https://user-images.githubusercontent.com/14096113/132244547-67682a4b-b74d-4ff5-8314-cc75ff4e9fbc.png)
-
-![image](https://user-images.githubusercontent.com/14096113/132244588-69bb7bb3-9488-49be-b78f-0e559e81a0b6.png)
-
-
-![image](https://user-images.githubusercontent.com/14096113/132244640-d90b9384-9a59-4866-af7a-062452939b83.png)
-
 
 ## Learn More
 
