@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Preview
+
+[Preview here](https://61364b322b4abc00087b0431--eager-booth-f5b855.netlify.app/)
+
 ## Screenshots
 
 ![image](https://user-images.githubusercontent.com/14096113/132244547-67682a4b-b74d-4ff5-8314-cc75ff4e9fbc.png)
