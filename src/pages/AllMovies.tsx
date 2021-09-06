@@ -1,33 +1,33 @@
 import { useState, useEffect } from 'react';
-import { IMeetupItem } from '../components/meetups/MeetupItem';
-import MeetupList from '../components/meetups/MeetupList';
+import { IMovieItem } from '../components/movies/MovieItem';
+import MovieList from '../components/movies/MovieList';
 
-const AllMeetupsPage = () => {
+const AllMoviesPage = () => {
   const [isLoading, setIsLoading] = useState(true);
-  const [loadedMeetups, setLoadedMeetups] = useState<IMeetupItem[]>([]);
+  const [loadedMovies, setLoadedMovies] = useState<IMovieItem[]>([]);
 
   useEffect(() => {
     setIsLoading(true);
     fetch(
-      'https://react-movies-app-41c26-default-rtdb.firebaseio.com/meetups.json'
+      'https://react-movies-app-41c26-default-rtdb.firebaseio.com/movies.json'
     )
       .then((response) => {
         return response.json();
       })
       .then((data) => {
-        const meetups = [];
+        const movies = [];
 
         for (const key in data) {
-          const meetup = {
+          const movie = {
             id: key,
             ...data[key]
           };
 
-          meetups.push(meetup);
+          movies.push(movie);
         }
 
         setIsLoading(false);
-        setLoadedMeetups(meetups);
+        setLoadedMovies(movies);
       });
   }, []);
 
@@ -41,10 +41,10 @@ const AllMeetupsPage = () => {
 
   return (
     <section>
-      <h1>All Meetups</h1>
-      <MeetupList meetups={loadedMeetups} />
+      <h1>All Movies</h1>
+      <MovieList movies={loadedMovies} />
     </section>
   );
 }
 
-export default AllMeetupsPage;
+export default AllMoviesPage;
